@@ -1,0 +1,13 @@
+body{
+  background-color: black;
+}
+
+table {
+  background-color: DodgerBlue;
+  width:75%;
+  height: 75%
+}
+td{
+  background-color: slategray;
+  height: 50px;
+}
