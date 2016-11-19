@@ -1,0 +1,187 @@
+div
+{
+  width: 300px;
+  border-radius: 3px;
+  background-color: #666666;
+}
+form input[type=text]
+{
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid DeepSkyBlue;
+  border-radius: 3px;
+}
+input[type=submit]:hover
+{
+  background-color: DodgerBlue;
+}
+.login form input[type=submit]
+{
+
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: DeepSkyBlue;
+  border-radius: 6px;
+  margin: 10px;
+  position: relative;
+  left: 30%;
+}
+
+/*
+Hover value has to be specific
+The buttons don't hover if there is only
+form input[type=submit]:hover{
+background-color: DodgerBlue;
+}*/
+.login form input[type=submit]:hover
+{
+  background-color: DodgerBlue;
+}
+
+.createAccount form input[type=submit]
+{
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: DeepSkyBlue;
+  border-radius: 6px;
+  margin: 10px;
+  position: relative;
+  left: 28%;
+}
+.createAccount form input[type=submit]:hover
+{
+  background-color: DodgerBlue;
+}
+
+.teaminfo p
+{
+    margin: 10px;
+}
+body
+{
+    background-color: #222020;
+    color: white;
+    font-family: "Helvetica Neue", serif;
+}
+
+#invalidUser
+{
+  visibility: hidden;
+  font-size: 12px;
+  text-align: center;
+  color: #ff4c4c;
+}
+
+#alreadyCreated
+{
+  visibility: hidden;
+  font-size: 12px;
+  text-align: center;
+  color: #ff4c4c;
+}
+.char{
+  width: 75px;
+  height: 75px;
+  max-width: 100px;
+  display: inline-block;
+  border: 3px;
+  border-radius: 4px;
+  border-color: #666666;
+  margin-bottom: 10px;
+  cursor:default;
+
+}
+
+div.slot{
+  color: #666666;
+  width: 50px;
+  height: 45px;
+  margin-bottom: 15%;
+}
+div.slot:hover{
+  border: 1px solid DeepSkyBlue;
+
+}
+div.char:hover{
+  border: 1px solid DeepSkyBlue;
+}
+
+/*
+TABLE
+CSS
+*/
+
+table{
+  cursor:default;
+
+}
+.playerOneList
+{
+  margin-top: 5%;
+  float:left;
+  margin-left: 15%;
+  text-align: left;
+  cursor:default;
+}
+.playerTwoList
+{
+  margin-top: 5%;
+  float: left;
+  margin-left: 5%;
+  text-align: right;
+  emtpy-cells: show;
+  cursor:default;
+
+}
+.shop
+{
+  cursor:default;
+  text-align: center;
+  margin-top: 5%;
+  float: left;
+  margin-left: 5%;
+}
+/*
+END
+TABLE
+CSS
+*/
+
+.item{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  cursor:default;
+}
+
+.Player1TeamList{
+  float: left;
+  width: auto;
+  padding: 15px;
+}
+
+.Player2TeamList{
+  float: left;
+  width: auto;
+  padding: 15px;
+}
+
+#gameTable td
+{
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    text-align: center;
+}
+#gameTable{
+    color: white;
+    /*background-color: green;*/
+}
+
+#gameTable td:hover{
+    border: 1px solid;
+    border-color: red;
+}
